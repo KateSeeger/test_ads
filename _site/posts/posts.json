@@ -1,14 +1,14 @@
 [
   {
     "path": "posts/2021-09-04-about-kate/",
-    "title": "About Kate",
-    "description": "Current undergraduate student at Macalester College interested in data science and biology!",
+    "title": "Fern Research",
+    "description": "Currently working on research manuscript identifying age dependent functional characteristics in tropical Saccaloma inaequale fern species.",
     "author": [],
     "date": "2021-09-07",
     "categories": [],
     "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-    "preview": "posts/2021-09-04-about-kate/nat_and_kate.png",
-    "last_modified": "2021-09-07T10:36:26-05:00",
+    "preview": "posts/2021-09-04-about-kate/saccaloma.jpg",
+    "last_modified": "2021-09-07T10:56:24-05:00",
     "input_file": "about-kate.knit.md"
   }
 ]
