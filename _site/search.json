@@ -1,21 +1,20 @@
 {
   "articles": [
     {
-      "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "path": "file_blog.html",
+      "title": "Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-03T16:33:13-05:00"
+      "last_modified": "2021-09-07T10:32:00-05:00"
     },
     {
       "path": "index.html",
       "title": "Kate Seeger",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "description": "I love biology and data science!\n",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-03T16:33:23-05:00"
+      "contents": "\r\n\r\nAbout me:\r\nEducation:\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-09-07T10:32:02-05:00"
     }
   ],
-  "collections": []
+  "collections": ["posts/posts.json"]
 }
