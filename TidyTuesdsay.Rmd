@@ -1,8 +1,6 @@
 ---
 title: "TidyTuesday"
-description: |
-  Tidy Tuesday Assignments from Advanced Data Science in R 
-site: distill::distill_website
+description: "Tidy Tuesday Assignments from Advanced Data Science in R \n"
 ---
 
 ```{r setup, include=FALSE}

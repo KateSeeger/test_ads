@@ -2,7 +2,7 @@
 title: "Kate Seeger"
 description: |
   Graphs I like
-site: distill::distill_website
+
 ---
 
 ```{r setup, include=FALSE}

@@ -9,6 +9,6 @@
     "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
     "preview": "posts/2021-09-04-about-kate/saccaloma.jpg",
     "last_modified": "2021-09-07T10:56:24-05:00",
-    "input_file": "about-kate.knit.md"
+    "input_file": {}
   }
 ]
