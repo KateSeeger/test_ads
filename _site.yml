@@ -9,6 +9,13 @@ navbar:
       href: index.html
     - text: "Blog"
       href: file_blog.html
+    - text: "Data Visualization"
+       menu:
+        - text: "TidyTuesday"
+          href: tidy_tuesday.html
+        - text: "Favorite Graphs"
+          href: fav_graphs.html
     - icon: fa fa-twitter
       href: https://twitter.com/seeger_kate
 output: distill::distill_article
+theme: theme.css
