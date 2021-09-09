@@ -1,8 +1,8 @@
 ---
 title: "TidyTuesday"
-author: "Kate Seeger"
-date: "9/9/2021"
-output: html_document
+description: |
+  Tidy Tuesday Assignments from Advanced Data Science in R 
+site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
