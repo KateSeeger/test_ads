@@ -6,30 +6,30 @@
       "description": "Graphs I like\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-09T11:25:55-05:00"
+      "last_modified": "2021-09-09T20:49:54-05:00"
     },
     {
       "path": "file_blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-09T11:25:57-05:00"
+      "last_modified": "2021-09-09T20:49:55-05:00"
     },
     {
       "path": "index.html",
       "title": "Kate Seeger",
-      "description": "I love biology and data science!\n",
+      "description": "Welcome to my personal website! I love talking about biology and data science!\n",
       "author": [],
-      "contents": "\r\n\r\nAbout me:\r\nEducation:\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-09T11:25:58-05:00"
+      "contents": "\r\n\r\nAbout me:\r\nI am a biology major and data science minor at Macalester College. I am originally from Eugene, Oregon and love to spend time outdoors playing ultimate frisbee and going on hikes. My academic interests include data visualization, data analytics, and quantitative ecology. You can find me either in Oregon or Minnesota (or some other cool state inbetween).\r\nEducation:\r\n\r\nMacalester College | St. Paul, MN\r\nBA in Biology and Data Science, Sept, 2018 - May, 2022\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-09-09T20:49:55-05:00"
     },
     {
-      "path": "TidyTuesdsay.html",
-      "title": "TidyTuesday",
-      "description": "Tidy Tuesday Assignments from Advanced Data Science in R \n",
+      "path": "Tidy_Tuesday.html",
+      "title": "Tidy Tuesday",
+      "description": "Tidy Tuesday assignments for Advanced Data Science in R",
       "author": [],
-      "contents": "\r\nR Markdown\r\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\r\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\r\n\r\n\r\nsummary(cars)\r\n\r\n\r\n     speed           dist       \r\n Min.   : 4.0   Min.   :  2.00  \r\n 1st Qu.:12.0   1st Qu.: 26.00  \r\n Median :15.0   Median : 36.00  \r\n Mean   :15.4   Mean   : 42.98  \r\n 3rd Qu.:19.0   3rd Qu.: 56.00  \r\n Max.   :25.0   Max.   :120.00  \r\n\r\nIncluding Plots\r\nYou can also embed plots, for example:\r\n\r\n\r\n\r\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-09T11:26:01-05:00"
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-09-09T20:49:56-05:00"
     }
   ],
   "collections": ["posts/posts.json"]
