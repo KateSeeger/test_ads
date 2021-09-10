@@ -20,3 +20,4 @@ navbar:
     - icon: fa fa-twitter
       href: https://twitter.com/seeger_kate
 output: distill::distill_article
+theme: theme.css

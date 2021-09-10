@@ -10,12 +10,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-![](17175.jpeg)
-
+<center>
+![](17175.jpeg){width=50%}
 
 
 ## About me: 
-I am a biology major and data science minor at Macalester College. I am originally from Eugene, Oregon and love to spend time outdoors playing ultimate frisbee and going on hikes. My academic interests include data visualization, data analytics, and quantitative ecology. You can find me either in Oregon or Minnesota (or some other cool state inbetween). 
+I am a biology major and data science minor at Macalester College. I am originally from Eugene, Oregon and love to spend time outdoors playing ultimate frisbee and going on hikes. My academic interests include data visualization, data analytics, and quantitative ecology. This summer, I was a part of the Biological Interactions REU at the University of Wisconsin, Madison. I worked in Kate McCulloh's Ecophysiology Lab and worked with Dr. Christopher Krieg on his doctoral research. I worked on a data set examining the relationship between leaf age and morphological and functional trait optimization. This project focused on MANOVA and PCA. I plan on working in a research assistant/technician position before starting graduate school. You can find me either in Oregon or Minnesota (or some other cool state inbetween). 
 
 ## Education:
 \
