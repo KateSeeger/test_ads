@@ -1,6 +1,6 @@
 ---
 title: "Tidy Tuesday 2"
-description: "Second Tidy Tuesday assignment for Advanced Data Science in R. Kate's process of creating data visulization"
+description: "Second Tidy Tuesday assignment for Advanced Data Science in R. Kate's process of creating data visulization."
 theme: cosmo
 ---
 
@@ -44,7 +44,7 @@ nominees_tt %>%
   theme_minimal() 
 
 ```
-First graph I created, thinking I wanted to visualize some ratio/comparison between nominee and win rates. Overall, was not that informative and I wante to reach deeper into the data. 
+First graph I created, thinking I wanted to visualize some ratio/comparison between nominee and win rates. Overall, was not that informative and I wanted to reach deeper into the data. 
 
 
 ```{r}
@@ -120,4 +120,4 @@ nominees_10 %>%
 ```
 Final Graph: 
 
-I chose to make this graph because I thought it would be interesting to see the breakdown of the Emmy wins by streaming services. The drastic switch streaming services have made from just being a video streaming platform to a creative/directing platform has changed the industry of streaming and is driving viewership. I chose to show only the comparisons of wins throughout the years via streaming services to show which have grown in popularity and to see if my assumptions held true. I chose these side by side boxplots to better visualize the data and made year a categorical variable. This palette was chosen for its nice and contrasting colors.
+I chose to make this graph because I thought it would be interesting to see the breakdown of the Emmy wins by streaming services. The drastic switch streaming services have made from just being a video streaming platform to a creative/directing platform has changed the industry of streaming and is driving viewership. I chose to show only the comparisons of wins throughout the years via streaming services to show which have grown in popularity and to see if my own assumptions held true. I chose these side by side boxplots to better visualize the data, and I made year a categorical variable in order to see the different breakdowns between each year. Set2 fill palette was chosen for its nice and contrasting colors.
