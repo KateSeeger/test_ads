@@ -1,6 +1,7 @@
 ---
 title: "Tidy Tuesday 2"
-description: "Second Tidy Tuesday assignments for Advanced Data Science in R"
+description: "Second Tidy Tuesday assignment for Advanced Data Science in R. Kate's process of creating data visulization"
+theme: cosmo
 ---
 
 ```{r setup, include=FALSE}
@@ -43,6 +44,8 @@ nominees_tt %>%
   theme_minimal() 
 
 ```
+First graph I created, thinking I wanted to visualize some ratio/comparison between nominee and win rates. Overall, was not that informative and I wante to reach deeper into the data. 
+
 
 ```{r}
 nominees_tt %>%
@@ -71,7 +74,14 @@ nominees_tt %>%
   theme(panel.grid.major.x = element_blank(), 
         plot.title = element_text(family = "A", hjust = 0.5))
 ```
+Second graph I created was more interesting and I believe showed similar data that was related to the first graph, but instead showing the win ratios between the streaming services. Didn't like the geom_point().
 
+
+\
+\
+\
+
+***TIDY TUESDAY WK 2***
 
 ```{r}
 windowsFonts(A = windowsFont("Times New Roman"))
@@ -108,4 +118,6 @@ nominees_10 %>%
   theme(panel.grid.major.x = element_blank(), 
         plot.title = element_text(family = "A", hjust = 0.5))
 ```
+Final Graph: 
 
+I chose to make this graph because I thought it would be interesting to see the breakdown of the Emmy wins by streaming services. The drastic switch streaming services have made from just being a video streaming platform to a creative/directing platform has changed the industry of streaming and is driving viewership. I chose to show only the comparisons of wins throughout the years via streaming services to show which have grown in popularity and to see if my assumptions held true. I chose these side by side boxplots to better visualize the data and made year a categorical variable. This palette was chosen for its nice and contrasting colors.
