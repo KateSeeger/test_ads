@@ -6,14 +6,14 @@
       "description": "Graphs I like\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-09T22:01:18-05:00"
+      "last_modified": "2021-09-21T23:15:34-05:00"
     },
     {
       "path": "file_blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-09T22:01:18-05:00"
+      "last_modified": "2021-09-21T23:15:35-05:00"
     },
     {
       "path": "index.html",
@@ -21,15 +21,15 @@
       "description": "Welcome to my personal website! I love talking about biology and data science!\n",
       "author": [],
       "contents": "\r\n\r\n\r\nAbout me:\r\nI am a biology major and data science minor at Macalester College. I am originally from Eugene, Oregon and love to spend time outdoors playing ultimate frisbee and going on hikes. My academic interests include data visualization, data analytics, and quantitative ecology. This summer, I was a part of the Biological Interactions REU at the University of Wisconsin, Madison. I worked in Kate McCulloh’s Ecophysiology Lab and worked with Dr. Christopher Krieg on his doctoral research. I worked on a data set examining the relationship between leaf age and morphological and functional trait optimization. This project focused on MANOVA and PCA. I plan on working in a research assistant/technician position before starting graduate school. You can find me either in Oregon or Minnesota (or some other cool state inbetween).\r\nEducation:\r\n\r\nMacalester College | St. Paul, MN\r\nBA in Biology and Data Science, Sept, 2018 - May, 2022\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-09T22:01:19-05:00"
+      "last_modified": "2021-09-21T23:15:35-05:00"
     },
     {
       "path": "Tidy_Tuesday.html",
-      "title": "Tidy Tuesday",
-      "description": "Tidy Tuesday assignments for Advanced Data Science in R",
+      "title": "Tidy Tuesday 2",
+      "description": "Second Tidy Tuesday assignments for Advanced Data Science in R",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-09T22:01:19-05:00"
+      "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-09-21T23:15:38-05:00"
     }
   ],
   "collections": ["posts/posts.json"]
