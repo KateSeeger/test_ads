@@ -1,4 +1,4 @@
 ---
-title: "Tidy Tuesday"
-description: "Tidy Tuesday assignments for Advanced Data Science in R"
+title: "Tidy Tuesday 2"
+description: "Second Tidy Tuesday assignments for Advanced Data Science in R"
 ---
