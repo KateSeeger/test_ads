@@ -15,8 +15,10 @@ navbar:
       menu:
         - text: "Favorite Graphs"
           href: fav_graphs.html
-        - text: "Tidy Tuesday"
+        - text: "Tidy Tuesday 2"
           href: Tidy_Tuesday.html
+        - text: "Tidy Tuesday 3"
+          href: Tidy_Tuesday_3.html          
     - icon: fa fa-twitter
       href: https://twitter.com/seeger_kate
 output: distill::distill_article
