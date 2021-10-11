@@ -1,0 +1,55 @@
+---
+title: "Tidy Tuesday 3"
+description: "Data Vizualization of RN Hourly Wages by State"
+theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE, error = TRUE)
+
+library(ggmap)
+library(maps)
+library(tidyverse)
+library(ggthemes) 
+library(plotly)
+
+```
+
+```{r}
+#nurses <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-10-05/nurses.csv')
+
+```
+
+```{r}
+nurses <- read.csv("C:/Users/kates/OneDrive/Desktop/Advanced_data_science/TidyTuesday/nurses.csv")
+```
+
+
+```{r}
+states_map <- map_data("state")
+
+nurses <- nurses %>%
+  mutate(state = tolower(State))
+```
+
+
+```{r}
+nurse_map <- nurses %>%
+  filter(Year == 2020) %>%
+  ggplot() + 
+  geom_map(aes(map_id = state, fill = Hourly_Wage_Avg), color = "grey", map = states_map) + 
+  expand_limits(x = states_map$long, y= states_map$lat) + 
+  theme_map() + 
+  scale_fill_viridis_c(option  = "inferno") + 
+                           theme_map() + 
+                           theme(legend.background = element_blank()) +
+  labs(title = "Average Hourly Wage for Registered Nurses per State",
+       fill = "") 
+
+ggplotly(nurse_map)
+  
+  
+```
+
+I chose to create this map, because I thought that an interactive map would make more sense as the nuances in the data were important for us to keep. I think that the data range on the legend on the side is a useful took to have as a reference for the average wages across the US, and the individual state hourly average is also in the plotly function. I also chose this distinctive color scheme, so it would show the difference in the averages. 
+
