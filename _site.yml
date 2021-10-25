@@ -18,7 +18,9 @@ navbar:
         - text: "Tidy Tuesday 2"
           href: Tidy_Tuesday.html
         - text: "Tidy Tuesday 3"
-          href: Tidy_Tuesday_3.html          
+          href: Tidy_Tuesday_3.html
+        - text: "Tidy Tuesday 4"
+          href: pumpkins.html
     - icon: fa fa-twitter
       href: https://twitter.com/seeger_kate
 output: distill::distill_article

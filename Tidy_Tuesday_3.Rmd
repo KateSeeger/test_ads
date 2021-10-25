@@ -1,6 +1,6 @@
 ---
 title: "Tidy Tuesday 3"
-description: "Data Vizualization of RN Hourly Wages by State"
+description: "Data Visualization of RN Hourly Wages by State"
 theme: cosmo
 ---
 
@@ -37,7 +37,9 @@ nurses <- nurses %>%
 nurse_map <- nurses %>%
   filter(Year == 2020) %>%
   ggplot() + 
-  geom_map(aes(map_id = state, fill = Hourly_Wage_Avg), color = "grey", map = states_map) + 
+  geom_map(aes(map_id = state, fill = Hourly_Wage_Avg),
+           color = "grey",
+           map = states_map) + 
   expand_limits(x = states_map$long, y= states_map$lat) + 
   theme_map() + 
   scale_fill_viridis_c(option  = "inferno") + 

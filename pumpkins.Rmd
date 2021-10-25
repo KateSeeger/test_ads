@@ -1,0 +1,69 @@
+---
+title: "Tidy Tuesday 4"
+description: "Data Visualization of Maximum Weight of Pumpkin per State"
+theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE, error = TRUE)
+
+library(dplyr) 
+library(tidyverse) 
+library(ggplot2)
+library(ggmap)
+library(maps)
+library(ggthemes) 
+library(plotly)
+library(viridis)
+library(gganimate)
+library(RColorBrewer)
+```
+
+```{r}
+pumpkins <- read.csv("C:/Users/kates/OneDrive/Desktop/Advanced_data_science/TidyTuesday/pumpkins.csv")
+
+```
+
+```{r}
+pumpkins <- pumpkins %>%
+  separate(id, into = c("year", "class"), convert = TRUE)
+```
+
+
+```{r}
+states_map <- map_data("state")
+
+
+pumpkins_map <- pumpkins %>%
+  filter(country == "United States",
+         year == 2021) %>%
+  mutate(State = tolower(state_prov)) %>%
+  group_by(year,
+           State)%>%
+  summarize(Max_weight = max(weight_lbs)) %>%
+  mutate(Max_weight = as.integer(Max_weight), 
+         year = as.character(year))
+
+
+
+pumpkins_animate <- pumpkins_map %>%
+  ggplot() + 
+  geom_map(aes(map_id = State,
+               fill = Max_weight), 
+           color = "grey", 
+           map = states_map) + 
+  expand_limits(x = states_map$long, y= states_map$lat) + 
+  theme_map() + 
+  scale_fill_viridis_c() + 
+                           theme_map() + 
+                           theme(legend.background = element_blank()) +
+  labs(title = "Max Weight of Pumpkins per US States in 2021",
+       fill = "") 
+
+ggplotly(pumpkins_animate)
+
+ 
+  
+```
+
+Data collected from the Great Pumpkin Commonwealth which is an organization that encourages local farmers to cultivate large pumpkins and enter them into competitions. I thought that it would be interesting to compare the states to see if there were any patterns of large growth throughout the country. I used this color palette because the yellow is easy to see which could help identify a pattern of where the highest max weight pumpkins.
