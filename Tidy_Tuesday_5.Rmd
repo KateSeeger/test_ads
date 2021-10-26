@@ -1,0 +1,48 @@
+---
+title: "Ultra Marathon"
+description: "Data Visualization of Average Race Time based on Age and Gender"
+theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE, error = TRUE)
+
+library(hms)
+library(tidyverse)
+library(ggplot2) 
+library(lubridate)
+```
+
+```{r}
+
+ultra_rankings <- read_csv("C:/Users/kates/OneDrive/Desktop/Advanced_data_science/TidyTuesday/ultrarankings.csv")
+
+
+race_type <- read_csv( "C:/Users/kates/OneDrive/Desktop/Advanced_data_science/TidyTuesday/race_type.csv")
+
+```
+
+```{r}
+genderdiff_race <- ultra_rankings %>%
+  filter(race_year_id == 54013) %>%
+  filter(!is.na(gender)) %>%
+  mutate(time_h= hms(time)) %>% 
+  mutate(time_h=hour(time)+minute(time)/60+second(time)/360) %>% 
+  mutate(kph=33.3/time_h) %>% 
+  group_by(age, gender) %>% 
+  summarize(mean_kph= mean(kph)) 
+
+genderdiff_race %>%
+  ggplot(aes(x = age,
+             y = mean_kph, 
+             color = gender)) + 
+  geom_line() + 
+  theme_bw() + 
+  labs(title = "Comparing Age and Gender Average Race Times from P'tiot Sparnatrail Race",
+       x = "Age (years)", 
+       y = "Average Race Time (km/hr)", 
+       color = "Gender")
+
+```
+
+I decided to look at the average race time for the 2019 Sparnatrail Race in Epernay, France. This race is a total of 33 km and I wanted to see the average speed of runners based on age and gender breakdowns. Average race time was calculated for each age and then the time factor was manipulated to get it into the km/hr format and then we colored by gender. I think that this graph is informative as the gender split for this race is different based on age groups. 

@@ -21,6 +21,8 @@ navbar:
           href: Tidy_Tuesday_3.html
         - text: "Tidy Tuesday 4"
           href: pumpkins.html
+        - text: "Tidy Tuesday 5"
+          href: Ultra_Marathon.html
     - icon: fa fa-twitter
       href: https://twitter.com/seeger_kate
 output: distill::distill_article
