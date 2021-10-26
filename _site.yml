@@ -22,7 +22,7 @@ navbar:
         - text: "Tidy Tuesday 4"
           href: pumpkins.html
         - text: "Tidy Tuesday 5"
-          href: Ultra_Marathon.html
+          href: Tidy_Tuesday_5.html
     - icon: fa fa-twitter
       href: https://twitter.com/seeger_kate
 output: distill::distill_article
