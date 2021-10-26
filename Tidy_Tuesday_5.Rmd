@@ -38,7 +38,7 @@ genderdiff_race %>%
              color = gender)) + 
   geom_line() + 
   theme_bw() + 
-  labs(title = "Comparing Age and Gender Average Race Times from P'tiot Sparnatrail Race",
+  labs(title = "Average Race Times Comparing Age & Gender from P'tiot Sparnatrail Race",
        x = "Age (years)", 
        y = "Average Race Time (km/hr)", 
        color = "Gender")
