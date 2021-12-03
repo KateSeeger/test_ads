@@ -15,6 +15,8 @@ navbar:
       menu:
         - text: "Favorite Graphs"
           href: fav_graphs.html
+        - text: "Kate's Shiny App"
+          href: shinydescription.html
         - text: "Tidy Tuesday 2"
           href: Tidy_Tuesday.html
         - text: "Tidy Tuesday 3"
