@@ -1,0 +1,11 @@
+---
+title: "Kate's Shiny App"
+description: "Description of Kate's Shiny App"
+theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+My shiny app is representing garden harvest data from Lisa Lendway's gardenR package. I wanted to create an interactive shiny app to represent the daily sum harvest of root vegetables from Lisa's garden. I decided to create a date table for the user to be able to interact with and to chose which date to look at for harvesting information. Since variables were limited to only root vegetables including beets, carrots, potatoes, radish, onions, and rutabaga, some dates will not contain information. I chose a theme from the bslibrary package for the formatting of the app and I decided to keep it simplistic with the overall design. You can find the shiny app [here](https://kateseeger.shinyapps.io/shiny/) 
